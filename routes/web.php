@@ -21,3 +21,19 @@ Route::get('/',[NewsController::class, 'index']);
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/index2', function () {
+    return view('index');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/store', function () {
+    return view('store');
+});
+
+Route::get('/products', function () {
+    return view('product');
+});

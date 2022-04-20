@@ -33,6 +33,7 @@
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ asset('style/about.html')}}">About</a></li>
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ asset('style/products.html')}}">Products</a></li>
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{ asset('style/store.html')}}">Store</a></li>
+                        
                     </ul>
                 </div>
             </div>
